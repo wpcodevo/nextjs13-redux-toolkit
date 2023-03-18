@@ -1,7 +1,7 @@
 "use client";
 
 import { useGetUsersQuery } from "@/redux/services/userApi";
-import { decrement, increment, reset } from "@/redux/features/counter";
+import { decrement, increment, reset } from "@/redux/features/counterSlice";
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 
 export default function Home() {
