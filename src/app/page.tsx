@@ -1,6 +1,6 @@
 "use client";
 
-import { useGetUsersQuery } from "@/redux/api/userApi";
+import { useGetUsersQuery } from "@/redux/services/userApi";
 import { decrement, increment, reset } from "@/redux/features/counter";
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 
