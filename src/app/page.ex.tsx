@@ -24,7 +24,7 @@ export default function Home() {
         <button onClick={() => dispatch(reset())}>reset</button>
       </div>
 
-  {error ? (
+      {error ? (
         <p>Oh no, there was an error</p>
       ) : isLoading || isFetching ? (
         <p>Loading...</p>
